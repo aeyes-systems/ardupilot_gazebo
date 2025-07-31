@@ -122,7 +122,7 @@
 
     <include>
       <uri>model://drone_2</uri>
-      <pose degrees="true">2 0 0.195 0 0 90</pose>
+      <pose degrees="true">0 2 0.195 0 0 90</pose>
     </include>
 
   </world>

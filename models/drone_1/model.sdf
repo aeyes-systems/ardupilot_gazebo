@@ -318,27 +318,27 @@
 
     </plugin>
 
-<!--    <plugin-->
-<!--      filename="gz-sim-joint-position-controller-system"-->
-<!--      name="gz::sim::systems::JointPositionController">-->
-<!--      <joint_name>gimbal::roll_joint</joint_name>-->
-<!--      <topic>/gimbal/cmd_roll</topic>-->
-<!--      <p_gain>2</p_gain>-->
-<!--    </plugin>-->
-<!--    <plugin-->
-<!--      filename="gz-sim-joint-position-controller-system"-->
-<!--      name="gz::sim::systems::JointPositionController">-->
-<!--      <joint_name>gimbal::pitch_joint</joint_name>-->
-<!--      <topic>/gimbal/cmd_pitch</topic>-->
-<!--      <p_gain>2</p_gain>-->
-<!--    </plugin>-->
-<!--    <plugin-->
-<!--      filename="gz-sim-joint-position-controller-system"-->
-<!--      name="gz::sim::systems::JointPositionController">-->
-<!--      <joint_name>gimbal::yaw_joint</joint_name>-->
-<!--      <topic>/gimbal/cmd_yaw</topic>-->
-<!--      <p_gain>2</p_gain>-->
-<!--    </plugin>-->
+    <plugin
+      filename="gz-sim-joint-position-controller-system"
+      name="gz::sim::systems::JointPositionController">
+      <joint_name>gimbal::roll_joint</joint_name>
+      <topic>/drone_1/gimbal/cmd_roll</topic>
+      <p_gain>2</p_gain>
+    </plugin>
+    <plugin
+      filename="gz-sim-joint-position-controller-system"
+      name="gz::sim::systems::JointPositionController">
+      <joint_name>gimbal::pitch_joint</joint_name>
+      <topic>/drone_1/gimbal/cmd_pitch</topic>
+      <p_gain>2</p_gain>
+    </plugin>
+    <plugin
+      filename="gz-sim-joint-position-controller-system"
+      name="gz::sim::systems::JointPositionController">
+      <joint_name>gimbal::yaw_joint</joint_name>
+      <topic>/drone_1/gimbal/cmd_yaw</topic>
+      <p_gain>2</p_gain>
+    </plugin>
 
   </model>
 </sdf>
